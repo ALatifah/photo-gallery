@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Photo Gallery</h1>
+    </header>
+    <main class="gallery">
+        <!-- Image gallery items -->
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0006.jpg');">
+                <img src="images/IMG-20240311-WA0006.jpg" alt="Photo 1">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0013.jpg');">
+                <img src="images/IMG-20240311-WA0013.jpg" alt="Photo 2">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0014.jpg');">
+                <img src="images/IMG-20240311-WA0014.jpg" alt="Photo 3">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0015.jpg');">
+                <img src="images/IMG-20240311-WA0015.jpg" alt="Photo 4">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0020.jpg');">
+                <img src="images/IMG-20240311-WA0020.jpg" alt="Photo 5">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0019.jpg');">
+                <img src="images/IMG-20240311-WA0019.jpg" alt="Photo 6">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240311-WA0021.jpg');">
+                <img src="images/IMG-20240311-WA0021.jpg" alt="Photo 7">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0001.jpg');">
+                <img src="images/IMG-20240812-WA0001.jpg" alt="Photo 8">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0016.jpg');">
+                <img src="images/IMG-20240812-WA0016.jpg" alt="Photo 9">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0006.jpg');">
+                <img src="images/IMG-20240812-WA0006.jpg" alt="Photo 10">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0002.jpg');">
+                <img src="images/IMG-20240812-WA0002.jpg" alt="Photo 11">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0007.jpg');">
+                <img src="images/IMG-20240812-WA0007.jpg" alt="Photo 12">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0008.jpg');">
+                <img src="images/IMG-20240812-WA0008.jpg" alt="Photo 13">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0009.jpg');">
+                <img src="images/IMG-20240812-WA0009.jpg" alt="Photo 14">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0014.jpg');">
+                <img src="images/IMG-20240812-WA0014.jpg" alt="Photo 15">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0017.jpg');">
+                <img src="images/IMG-20240812-WA0017.jpg" alt="Photo 16">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#!" onclick="openLightbox(); changeImage('images/IMG-20240812-WA0018.jpg');">
+                <img src="images/IMG-20240812-WA0018.jpg" alt="Photo 17">
+            </a>
+        </div>
+    </main>
+
+    <!-- Lightbox for displaying images -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Latifah. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
